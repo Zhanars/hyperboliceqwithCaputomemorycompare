@@ -1,0 +1,59 @@
+# Build artifacts
+*.aux
+*.log
+*.out
+*.pdf
+*.abs
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.blg
+*.bbl
+
+# Binary / archives
+*.zip
+*.docx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Old Python experiments (superseded by Julia)
+experiments/*.py
+experiments/debug_soe.py
+experiments/tmp_bench.py
+experiments/patch_fm.py
+experiments/plot_*.py
+
+# Temp files
+*.tmp
+benchmark_times.txt
+
+# Unrelated projects
+jnmp_coupled/
+reviewer/
+submission_ready/
+Applied Numerical Mathematics/
+thumbnails/
+
+# LaTeX template
+els-cas-templates.zip
+elsarticle.zip
+cas-sc.cls
+
+# Old unified script
+unify.py
+
+# Student guide
+student_guide_hyperbolic.*
+
+# Manuscript variants
+manuscript_ru.*
+manuscript_en.*
+manuscripts_updated.zip
+updated_manuscripts.zip
+submission_ready.zip
+
+# Highlights
+highlights.txt
+cites.bib
